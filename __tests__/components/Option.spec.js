@@ -42,7 +42,7 @@ describe('<Option/> component', () => {
 
   it('onClick remove item', () => {
     TestRenderer.create(<Option {...props({ item: options[0] })} onClick={spy} />)
-      .root.findByProps({ className: 'react-dropdown-select-option-remove' })
+      .root.findByProps({ className: 'react-dropdown-select-emotionless-option-remove' })
       .props.onClick();
 
     expect(spy).toHaveBeenCalled;

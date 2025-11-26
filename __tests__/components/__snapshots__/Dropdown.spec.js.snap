@@ -3,12 +3,12 @@
 exports[`<Dropdown/> renders correctly 1`] = `
 <div
   aria-expanded="true"
-  className="react-dropdown-select-dropdown react-dropdown-select-dropdown-position-undefined"
+  className="react-dropdown-select-emotionless-dropdown react-dropdown-select-emotionless-dropdown-position-undefined"
   role="list"
   tabIndex="-1"
 >
   <div
-    className="react-dropdown-select-no-data"
+    className="react-dropdown-select-emotionless-no-data"
   />
 </div>
 `;

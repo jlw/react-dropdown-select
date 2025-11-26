@@ -2,6 +2,6 @@
 
 exports[`<Separator/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-separator"
+  className="react-dropdown-select-emotionless-separator"
 />
 `;

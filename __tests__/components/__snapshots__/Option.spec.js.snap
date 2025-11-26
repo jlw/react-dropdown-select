@@ -2,14 +2,14 @@
 
 exports[`<Option/> component renders correctly 1`] = `
 <span
-  className="react-dropdown-select-option"
+  className="react-dropdown-select-emotionless-option"
   role="listitem"
 >
   <span
-    className="react-dropdown-select-option-label"
+    className="react-dropdown-select-emotionless-option-label"
   />
   <span
-    className="react-dropdown-select-option-remove"
+    className="react-dropdown-select-emotionless-option-remove"
     onClick={[Function]}
   >
     ×

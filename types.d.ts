@@ -1,4 +1,4 @@
-declare module 'react-dropdown-select' {
+declare module 'react-dropdown-select-emotionless' {
   import {
     ChangeEvent,
     CSSProperties,

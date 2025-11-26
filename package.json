@@ -1,8 +1,8 @@
 {
   "name": "react-dropdown-select-emotionless",
   "version": "0.1.0",
-  "description": "Customizable dropdown select for react (without emotion or inline styles)",
-  "main": "dist/react-dropdown-select.js",
+  "description": "Customizable dropdown select for react (without @emotion or inline styles)",
+  "main": "dist/react-dropdown-select-emotionless.js",
   "module": "lib/index.js",
   "types": "types.d.ts",
   "sideEffects": false,
@@ -28,11 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanusart/react-dropdown-select"
+    "url": "https://github.com/jlw/react-dropdown-select"
   },
   "bundlesize": [
     {
-      "path": "./dist/react-dropdown-select.js",
+      "path": "./dist/react-dropdown-select-emotionless.js",
       "maxSize": "20 kB"
     },
     {

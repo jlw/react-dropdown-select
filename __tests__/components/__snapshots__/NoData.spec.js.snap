@@ -2,6 +2,6 @@
 
 exports[`<NoData/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-no-data"
+  className="react-dropdown-select-emotionless-no-data"
 />
 `;

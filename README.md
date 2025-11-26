@@ -1,6 +1,6 @@
-# react-dropdown-select
+# react-dropdown-select-emotionless
 
-Customisable dropdown select for react
+Customisable dropdown select for react (without @emotion or inline styles)
 
 [![](https://badgen.net/bundlephobia/minzip/react-dropdown-select)](https://bundlephobia.com/result?p=react-dropdown-select)
 [![](https://img.shields.io/npm/v/react-dropdown-select.svg)](https://www.npmjs.com/package/react-dropdown-select)

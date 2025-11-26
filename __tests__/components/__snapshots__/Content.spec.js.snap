@@ -2,27 +2,27 @@
 
 exports[`<Clear/> component <Content/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-content react-dropdown-select-type-multi"
+  className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-multi"
   onClick={[Function]}
 >
   <span
-    className="react-dropdown-select-option"
+    className="react-dropdown-select-emotionless-option"
     role="listitem"
   >
     <span
-      className="react-dropdown-select-option-label"
+      className="react-dropdown-select-emotionless-option-label"
     >
       Leanne Graham
     </span>
     <span
-      className="react-dropdown-select-option-remove"
+      className="react-dropdown-select-emotionless-option-remove"
       onClick={[Function]}
     >
       ×
     </span>
   </span>
   <input
-    className="react-dropdown-select-input react-dropdown-select-input-readonly"
+    className="react-dropdown-select-emotionless-input react-dropdown-select-emotionless-input-readonly"
     onBlur={[Function]}
     onClick={[Function]}
     onFocus={[Function]}
