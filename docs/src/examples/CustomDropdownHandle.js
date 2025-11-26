@@ -18,7 +18,7 @@ const CustomDropdownHandle = ({ options, title }) => (
   <React.Fragment>
     <Heading
       title={title}
-      source="https://github.com/sanusart/react-dropdown-select/tree/master/docs/src/examples/CustomDropdownHandle.js"
+      source="https://github.com/jlw/react-dropdown-select/tree/master/docs/src/examples/CustomDropdownHandle.js"
     />
 
     <LiveProvider theme={theme} code={code} scope={{ Select, options }}>

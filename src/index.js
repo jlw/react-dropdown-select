@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import styled from '@emotion/styled';
 import ClickOutside from './components/ClickOutside';
 
 import Content from './components/Content';
@@ -466,27 +465,28 @@ export class Select extends Component {
   };
 
   render() {
+    const classNames = [LIB_NAME]
+    if (this.props.direction === 'rtl') { classNames.push(`${LIB_NAME}-rtl`) }
+    if (this.props.disabled) { classNames.push(`${LIB_NAME}-disabled`) }
+    if (this.props.className !== undefined) { classNames.push(this.props.className) }
+
     return (
       <ClickOutside onClickOutside={(event) => this.dropDown('close', event)}>
-        <ReactDropdownSelect
+        <div
           onKeyDown={this.handleKeyDown}
           aria-label="Dropdown select"
           aria-expanded={this.state.dropdown}
           onClick={(event) => this.dropDown('open', event)}
           tabIndex={this.props.disabled ? '-1' : '0'}
-          direction={this.props.direction}
-          style={this.props.style}
           ref={this.select}
-          disabled={this.props.disabled}
-          className={`${LIB_NAME} ${this.props.className}`}
-          color={this.props.color}
+          className={classNames.join(' ')}
           {...this.props.additionalProps}>
           <Content props={this.props} state={this.state} methods={this.methods} />
 
           {(this.props.name || this.props.required) && (
             <input
               tabIndex={-1}
-              style={{ opacity: 0, width: 0, position: 'absolute' }}
+              className={`${LIB_NAME}-input-zero`}
               name={this.props.name}
               required={this.props.required}
               pattern={this.props.pattern}
@@ -517,7 +517,7 @@ export class Select extends Component {
           )}
 
           {this.state.dropdown && !this.props.disabled && this.renderDropdown()}
-        </ReactDropdownSelect>
+        </div>
       </ClickOutside>
     );
   }
@@ -535,7 +535,6 @@ Select.defaultProps = {
   closeOnScroll: false,
   closeOnSelect: false,
   closeOnClickInput: false,
-  color: '#0074D9',
   compareValuesFunc: isEqual,
   create: false,
   createNewLabel: 'add {search}',
@@ -580,37 +579,5 @@ Select.defaultProps = {
   values: [],
   defaultMenuIsOpen: false
 };
-
-const ReactDropdownSelect = styled.div`
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  border: 1px solid #ccc;
-  width: 100%;
-  border-radius: 2px;
-  padding: 2px 5px;
-  flex-direction: row;
-  direction: ${({ direction }) => direction};
-  align-items: center;
-  cursor: pointer;
-  min-height: 36px;
-
-  ${({ disabled }) =>
-    disabled ? 'cursor: not-allowed;pointer-events: none;opacity: 0.3;' : 'pointer-events: all;'}
-  :hover,
-  :focus-within {
-    border-color: ${({ color }) => color};
-  }
-
-  :focus,
-  :focus-within {
-    outline: 0;
-    box-shadow: 0 0 0 3px ${({ color }) => hexToRGBA(color, 0.2)};
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-`;
 
 export default Select;

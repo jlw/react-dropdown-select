@@ -84,7 +84,6 @@ declare module 'react-dropdown-select' {
     addPlaceholder?: string;
     placeholder?: string;
     loading?: boolean;
-    style?: CSSProperties;
     values: T[];
     options: T[];
     multi?: boolean;

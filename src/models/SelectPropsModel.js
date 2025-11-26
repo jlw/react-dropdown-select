@@ -250,10 +250,6 @@ const SelectPropsModel = Object.freeze({
    */
   sortBy: PropTypes.string,
   /**
-   * Style object to pass to select
-   */
-  style: PropTypes.object,
-  /**
    * Field in data to use for value
    */
   valueField: PropTypes.string,

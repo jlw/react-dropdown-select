@@ -12,7 +12,7 @@ const WithAnimation = ({ options, title }) => {
     <React.Fragment>
       <Heading
         title={title}
-        source="https://github.com/sanusart/react-dropdown-select/tree/master/docs/src/examples/WithAnimation.js"
+        source="https://github.com/jlw/react-dropdown-select/tree/master/docs/src/examples/WithAnimation.js"
       />
 
       <StyledSelect

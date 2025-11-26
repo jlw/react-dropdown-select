@@ -7,7 +7,7 @@ const Styled = ({ options, title }) => (
   <React.Fragment>
     <Heading
       title={title}
-      source="https://github.com/sanusart/react-dropdown-select/tree/master/docs/src/examples/Styled.js"
+      source="https://github.com/jlw/react-dropdown-select/tree/master/docs/src/examples/Styled.js"
     />
 
     <StyledSelect
@@ -65,7 +65,7 @@ const StyledSelect = styled(Select)`
   .react-dropdown-select-item {
     color: #f2f2f2;
     border-bottom: 1px solid #333;
-       
+
     :hover {
        color: #ffffff80;
     }
