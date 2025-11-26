@@ -162,7 +162,7 @@
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-.react-dropdown-select-emotionless-item-disabled..react-dropdown-select-emotionless-item-selected {
+.react-dropdown-select-emotionless-item-disabled.react-dropdown-select-emotionless-item-selected {
   background: #f2f2f2;
   color: #ccc;
 }
