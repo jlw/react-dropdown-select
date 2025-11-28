@@ -2,6 +2,6 @@
 
 exports[`<Loading/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-emotionless-loading"
+  className="react-select-clean-loading"
 />
 `;

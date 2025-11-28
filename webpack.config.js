@@ -5,7 +5,7 @@ module.exports = {
   entry: path.join(__dirname, 'src/index.js'),
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'react-dropdown-select-emotionless.js',
+    filename: 'react-select-clean.js',
     library: 'reactDropdownSelect',
     libraryTarget: 'umd',
     umdNamedDefine: true,

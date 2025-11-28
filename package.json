@@ -1,28 +1,25 @@
 {
-  "name": "react-dropdown-select-emotionless",
+  "name": "react-select-clean",
   "version": "0.1.0",
-  "description": "Customizable dropdown select for react (without @emotion or inline styles)",
-  "main": "dist/react-dropdown-select-emotionless.js",
+  "description": "Customizable dropdown select for react with basic, easily-overrideable CSS",
+  "main": "dist/react-select-clean.js",
   "module": "lib/index.js",
   "types": "types.d.ts",
   "sideEffects": false,
   "files": [
+    "assets",
     "dist",
     "lib",
     "types.d.ts"
   ],
   "scripts": {
-    "test": "jest --bail",
-    "test:watch": "jest --bail --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "build": "webpack && yarn transpile",
+    "build": "webpack && npm transpile",
     "transpile": "babel src -d lib",
-    "prepublishOnly": "yarn build",
-    "version": "replace \"vPLACEHOLDER\" \"v$npm_package_version\" ./CHANGELOG.md && git add .",
+    "prepublishOnly": "npm build",
     "preversion": "sh change-log-builder.sh",
-    "release:patch": "npm version patch -m \"v%s \nSee changelog: https://github.com/sanusart/react-dropdown-select/blob/master/CHANGELOG.md\"",
-    "release:minor": "npm version minor -m \"v%s \nSee changelog: https://github.com/sanusart/react-dropdown-select/blob/master/CHANGELOG.md\"",
-    "release:major": "npm version major -m \"v%s \nSee changelog: https://github.com/sanusart/react-dropdown-select/blob/master/CHANGELOG.md\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -32,7 +29,7 @@
   },
   "bundlesize": [
     {
-      "path": "./dist/react-dropdown-select-emotionless.js",
+      "path": "./dist/react-select-clean.js",
       "maxSize": "20 kB"
     },
     {
@@ -47,7 +44,7 @@
     "multiselect",
     "dropdown"
   ],
-  "author": "Sasha Khamkov <sanusart@gmail.com>",
+  "author": "Jeremy Weathers <jeremy@codekindly.com>",
   "license": "MIT",
   "peerDependencies": {
     "prop-types": ">=15.7.2",
@@ -64,6 +61,7 @@
     "@babel/preset-react": "^7.7.4",
     "@emotion/babel-plugin": "11.11.0",
     "@emotion/jest": "11.11.0",
+    "@faker-js/faker": "^10.1.0",
     "@storybook/addon-docs": "7.1.1",
     "@storybook/addon-essentials": "7.1.1",
     "@storybook/addon-interactions": "7.1.1",
@@ -88,9 +86,9 @@
     "jest-environment-jsdom": "29.6.2",
     "prettier": "1.18.2",
     "prop-types": "^15.7.2",
-    "react": "19",
-    "react-dom": "19",
-    "react-test-renderer": "18",
+    "react": "16.14.0",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
     "replace": "^1.2.0",
     "storybook": "7.1.1",
     "style-loader": "^3.3.1",

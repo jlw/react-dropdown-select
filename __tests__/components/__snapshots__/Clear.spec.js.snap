@@ -2,7 +2,7 @@
 
 exports[`<Clear/> component <Clear/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-emotionless-clear"
+  className="react-select-clean-clear"
   onClick={[Function]}
   onKeyPress={[Function]}
   tabIndex="-1"

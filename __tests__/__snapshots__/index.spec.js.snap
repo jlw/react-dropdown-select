@@ -2,22 +2,22 @@
 
 exports[`<Select/> component <Select/> is disabled 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless react-dropdown-select-emotionless-disabled"
+    className="react-select-clean react-select-clean-disabled"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="-1"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={true}
         onBlur={[Function]}
         onChange={[Function]}
@@ -30,7 +30,7 @@ exports[`<Select/> component <Select/> is disabled 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -51,22 +51,22 @@ exports[`<Select/> component <Select/> is disabled 1`] = `
 
 exports[`<Select/> component <Select/> renders correctly 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -79,7 +79,7 @@ exports[`<Select/> component <Select/> renders correctly 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -100,22 +100,22 @@ exports[`<Select/> component <Select/> renders correctly 1`] = `
 
 exports[`<Select/> component <Select/> renders with clearable 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -128,7 +128,7 @@ exports[`<Select/> component <Select/> renders with clearable 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-clear"
+      className="react-select-clean-clear"
       onClick={[Function]}
       onKeyPress={[Function]}
       tabIndex="-1"
@@ -136,7 +136,7 @@ exports[`<Select/> component <Select/> renders with clearable 1`] = `
       ×
     </div>
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -157,22 +157,22 @@ exports[`<Select/> component <Select/> renders with clearable 1`] = `
 
 exports[`<Select/> component <Select/> renders with custom search function 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -185,7 +185,7 @@ exports[`<Select/> component <Select/> renders with custom search function 1`] =
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -206,22 +206,22 @@ exports[`<Select/> component <Select/> renders with custom search function 1`] =
 
 exports[`<Select/> component <Select/> renders with loading 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -234,10 +234,10 @@ exports[`<Select/> component <Select/> renders with loading 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-loading"
+      className="react-select-clean-loading"
     />
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -258,22 +258,22 @@ exports[`<Select/> component <Select/> renders with loading 1`] = `
 
 exports[`<Select/> component <Select/> renders with name 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -286,7 +286,7 @@ exports[`<Select/> component <Select/> renders with name 1`] = `
       />
     </div>
     <input
-      className="react-dropdown-select-emotionless-input-zero"
+      className="react-select-clean-input-zero"
       defaultValue={[]}
       disabled={false}
       name="form-select"
@@ -294,7 +294,7 @@ exports[`<Select/> component <Select/> renders with name 1`] = `
       tabIndex={-1}
     />
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -315,22 +315,22 @@ exports[`<Select/> component <Select/> renders with name 1`] = `
 
 exports[`<Select/> component <Select/> renders with separator 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -343,10 +343,10 @@ exports[`<Select/> component <Select/> renders with separator 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-separator"
+      className="react-select-clean-separator"
     />
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}
@@ -367,22 +367,22 @@ exports[`<Select/> component <Select/> renders with separator 1`] = `
 
 exports[`<Select/> component <Select/> renders with short color 1`] = `
 <div
-  className="react-dropdown-select-emotionless-container"
+  className="react-select-clean-container"
 >
   <div
     aria-expanded={false}
     aria-label="Dropdown select"
-    className="react-dropdown-select-emotionless"
+    className="react-select-clean"
     onClick={[Function]}
     onKeyDown={[Function]}
     tabIndex="0"
   >
     <div
-      className="react-dropdown-select-emotionless-content react-dropdown-select-emotionless-type-single"
+      className="react-select-clean-content react-select-clean-type-single"
       onClick={[Function]}
     >
       <input
-        className="react-dropdown-select-emotionless-input"
+        className="react-select-clean-input"
         disabled={false}
         onBlur={[Function]}
         onChange={[Function]}
@@ -395,7 +395,7 @@ exports[`<Select/> component <Select/> renders with short color 1`] = `
       />
     </div>
     <div
-      className="react-dropdown-select-emotionless-dropdown-handle react-dropdown-select-emotionless-dropdown-handle-closed react-dropdown-select-emotionless-dropdown-handle-rotate"
+      className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyPress={[Function]}

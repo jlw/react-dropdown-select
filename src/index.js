@@ -62,7 +62,6 @@ export class Select extends Component {
   }
 
   componentDidMount() {
-    this.props.portal && this.props.portal.appendChild(this.dropdownRoot);
     isomorphicWindow().addEventListener('resize', debounce(this.updateSelectBounds));
     isomorphicWindow().addEventListener('scroll', debounce(this.onScroll));
 
@@ -123,7 +122,6 @@ export class Select extends Component {
   }
 
   componentWillUnmount() {
-    this.props.portal && this.props.portal.removeChild(this.dropdownRoot);
     isomorphicWindow().removeEventListener(
       'resize',
       debounce(this.updateSelectBounds, this.props.debounceDelay)
@@ -170,18 +168,6 @@ export class Select extends Component {
         state: this.state,
         close: () => this.dropDown('close', null, true)
       });
-    }
-
-    if (
-      this.props.portal &&
-      !this.props.closeOnScroll &&
-      !this.props.closeOnSelect &&
-      event &&
-      target &&
-      target.offsetParent &&
-      target.offsetParent.classList.contains(`${LIB_NAME}-dropdown`)
-    ) {
-      return;
     }
 
     if (this.props.keepOpen) {
@@ -443,15 +429,7 @@ export class Select extends Component {
     }
   };
 
-  renderDropdown = () =>
-    this.props.portal ? (
-      ReactDOM.createPortal(
-        <Dropdown props={this.props} state={this.state} methods={this.methods} />,
-        this.dropdownRoot
-      )
-    ) : (
-      <Dropdown props={this.props} state={this.state} methods={this.methods} />
-    );
+  renderDropdown = () => ( <Dropdown props={this.props} state={this.state} methods={this.methods} /> );
 
   createNew = (item) => {
     const newValue = {
@@ -566,7 +544,6 @@ Select.defaultProps = {
   options: [],
   pattern: undefined,
   placeholder: 'Select...',
-  portal: null,
   required: false,
   searchBy: 'label',
   searchFn: () => undefined,

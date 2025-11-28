@@ -53,7 +53,7 @@ describe('<Clear/> component', () => {
       render(<Content {...componentProps} />, container);
     });
 
-    const content = document.querySelector('.react-dropdown-select-emotionless-content');
+    const content = document.querySelector('.react-select-clean-content');
 
     expect(componentProps.methods.dropDown).toHaveBeenCalledTimes(0);
 

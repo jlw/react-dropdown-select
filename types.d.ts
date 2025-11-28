@@ -1,4 +1,4 @@
-declare module 'react-dropdown-select-emotionless' {
+declare module 'react-select-clean' {
   import {
     ChangeEvent,
     CSSProperties,
@@ -112,7 +112,6 @@ declare module 'react-dropdown-select-emotionless' {
     dropdownPosition?: 'top' | 'bottom' | 'auto';
     dropdownHeight?: string;
     autoFocus?: boolean;
-    portal?: HTMLElement;
     create?: boolean;
     direction?: 'ltr' | 'rtl';
     name?: string;
@@ -168,7 +167,6 @@ declare module 'react-dropdown-select-emotionless' {
   export interface DropDownProps {
     selectBounds: DOMRect;
     dropdownGap: number;
-    portal: HTMLElement;
     dropdownHeight: string;
     dropdownPosition: 'auto' | 'top' | 'bottom';
   }

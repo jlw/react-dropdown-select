@@ -1,1 +1,1 @@
-export const LIB_NAME = 'react-dropdown-select-emotionless';
+export const LIB_NAME = 'react-select-clean';

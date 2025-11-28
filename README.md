@@ -1,4 +1,4 @@
-# react-dropdown-select-emotionless
+# react-select-clean
 
 Customisable dropdown select for react (without @emotion or inline styles)
 
@@ -11,14 +11,13 @@ Customisable dropdown select for react (without @emotion or inline styles)
 
 - configurable via `prop`s
 - total custom components overrides for all internals via render prop callbacks (with access to internal props, state and methods)
-- stylable via css (or custom components)
-- portal support for rendering dropdown outside local DOM tree. e.g. in `document.body`
+- stylable via CSS
 - auto position
 - small bundle size
 
 ### Installation
 
-> `npm install --save react-dropdown-select`
+> `npm install --save react-select-clean`
 
 ### Web site
 
@@ -26,13 +25,13 @@ Customisable dropdown select for react (without @emotion or inline styles)
 
 ### Motivation
 
-react-select is very nice, but sometimes project requirements are beyond it's abilities
+I need a combobox component that A) can work on a site where the Content-Security-Policy does not allow inline styles and B) allows changing the available option list. Downshift met the needs for the Content-Secuity-Policy, but could not handle changing options after the component renders. All of the other packages I tried relied on inline styles and/or non-deterministic CSS class names that fought customization.
 
 ### Usage
 
 import:
 
-`import Select from "react-dropdown-select";`
+`import Select from "react-select-clean";`
 
 and use as:
 
@@ -122,13 +121,11 @@ const options = [
 | sortBy                                                                                      | string      | null           | Sort by object property in values                                                                                                      |
 | labelField                                                                                  | string      | "label"        | Field in data to use for label                                                                                                         |
 | valueField                                                                                  | string      | "value"        | Field in data to use for value                                                                                                         |
-| color                                                                                       | string      | "#0074D9"      | Base color to use in component, also can be overwritten via CSS                                                                        |
 | closeOnScroll                                                                               | bool        | false          | If true, scrolling the page will close the dropdown                                                                                    |
 | closeOnSelect                                                                               | bool        | false          | If true, selecting option will close the dropdown                                                                                      |
 | closeOnClickInput                                                                           | bool        | false          | If true, clicking input will close the dropdown if you are not searching.                                                              |
 | [dropdownPosition](https://sanusart.github.io/react-dropdown-select/prop/dropdown-position) | string      | "bottom"       | Available options are "auto", "top" and "bottom" defaults to "bottom". Auto will adjust itself according Select's position on the page |
 | keepSelectedInList                                                                          | bool        | true           | If false, selected item will not appear in a list                                                                                      |
-| portal                                                                                      | DOM element | false          | If valid dom element specified - dropdown will break out to render inside the specified element                                        |
 | create                                                                                      | bool        | false          | If true, select will create value from search string and fire `onCreateNew` callback prop                                              |
 | backspaceDelete                                                                             | bool        | true           | If true, backspace key will delete last value                                                                                          |
 | createNewLabel                                                                              | string      | "add {search}" | If create set to true, this will be the label of the "add new" component. `{search}` will be replaced by search value                  |
