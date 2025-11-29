@@ -2,7 +2,7 @@
 
 exports[`<Clear/> component <DropdownHandle/> renders correctly 1`] = `
 <div
-  className="react-select-clean-dropdown-handle react-select-clean-dropdown-handle-closed react-select-clean-dropdown-handle-rotate"
+  className="react-clean-select-dropdown-handle react-clean-select-dropdown-handle-closed react-clean-select-dropdown-handle-rotate"
   onClick={[Function]}
   onKeyDown={[Function]}
   onKeyPress={[Function]}

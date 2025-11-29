@@ -2,6 +2,6 @@
 
 exports[`<Separator/> renders correctly 1`] = `
 <div
-  className="react-select-clean-separator"
+  className="react-clean-select-separator"
 />
 `;

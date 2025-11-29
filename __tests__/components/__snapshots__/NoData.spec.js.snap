@@ -2,6 +2,6 @@
 
 exports[`<NoData/> renders correctly 1`] = `
 <div
-  className="react-select-clean-no-data"
+  className="react-clean-select-no-data"
 />
 `;

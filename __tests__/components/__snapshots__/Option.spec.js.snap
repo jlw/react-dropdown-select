@@ -2,14 +2,14 @@
 
 exports[`<Option/> component renders correctly 1`] = `
 <span
-  className="react-select-clean-option"
+  className="react-clean-select-option"
   role="listitem"
 >
   <span
-    className="react-select-clean-option-label"
+    className="react-clean-select-option-label"
   />
   <span
-    className="react-select-clean-option-remove"
+    className="react-clean-select-option-remove"
     onClick={[Function]}
   >
     ×

@@ -1,1 +1,1 @@
-export const LIB_NAME = 'react-select-clean';
+export const LIB_NAME = 'react-clean-select';

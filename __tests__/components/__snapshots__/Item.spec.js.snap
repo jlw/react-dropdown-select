@@ -2,7 +2,7 @@
 
 exports[`<Item/> component pass item renderer 1`] = `
 <span
-  className="react-select-clean-item"
+  className="react-clean-select-item"
   onClick={[Function]}
   onKeyPress={[Function]}
   role="option"
@@ -14,7 +14,7 @@ exports[`<Item/> component pass item renderer 1`] = `
 
 exports[`<Item/> component renders correctly 1`] = `
 <span
-  className="react-select-clean-item"
+  className="react-clean-select-item"
   onClick={[Function]}
   onKeyPress={[Function]}
   role="option"

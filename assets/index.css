@@ -1,4 +1,4 @@
-.react-select-clean {
+.react-clean-select {
   box-sizing: border-box;
   position: relative;
   display: flex;
@@ -13,41 +13,41 @@
   min-height: 36px;
   pointer-events: all;
 }
-.react-select-clean:focus,
-.react-select-clean:focus-within {
+.react-clean-select:focus,
+.react-clean-select:focus-within {
   outline: 0;
 }
-.react-select-clean-disabled {
+.react-clean-select-disabled {
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.3;
 }
-.react-select-clean-rtl {
+.react-clean-select-rtl {
   direction: rtl;
 }
-.react-select-clean * {
+.react-clean-select * {
   box-sizing: border-box;
 }
 
-.react-select-clean-clear {
+.react-clean-select-clear {
   line-height: 25px;
   margin: 0 10px;
   cursor: pointer;
 }
-.react-select-clean-clear:focus {
+.react-clean-select-clear:focus {
   outline: none;
 }
-.react-select-clean-clear:hover {
+.react-clean-select-clear:hover {
   color: tomato;
 }
 
-.react-select-clean-content {
+.react-clean-select-content {
   display: flex;
   flex: 1;
   flex-wrap: wrap;
 }
 
-.react-select-clean-dropdown {
+.react-clean-select-dropdown {
   position: absolute;
   top: 43px;
   left: -1px;
@@ -62,19 +62,19 @@
   overflow: auto;
   z-index: 9;
 }
-.react-select-clean-dropdown:focus {
+.react-clean-select-dropdown:focus {
   outline: none;
 }
 
-.react-select-clean-dropdown-add-new {
+.react-clean-select-dropdown-add-new {
   padding: 5px 10px;
 }
-.react-select-clean-dropdown-add-new:hover {
+.react-clean-select-dropdown-add-new:hover {
   outline: none;
   cursor: pointer;
 }
 
-.react-select-clean-dropdown-select-all {
+.react-clean-select-dropdown-select-all {
   padding: 5px 10px;
   position: sticky;
   bottom: 0;
@@ -83,38 +83,38 @@
   background: #fff;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
-.react-select-clean-dropdown-select-all:hover {
+.react-clean-select-dropdown-select-all:hover {
   outline: none;
   cursor: pointer;
 }
 
-.react-select-clean-dropdown-handle {
+.react-clean-select-dropdown-handle {
   text-align: center;
   cursor: pointer;
 }
-.react-select-clean-dropdown-handle:focus {
+.react-clean-select-dropdown-handle:focus {
   outline: none;
 }
-.react-select-clean-dropdown-handle svg {
+.react-clean-select-dropdown-handle svg {
   width: 16px;
   height: 16px;
 }
-.react-select-clean-dropdown-handle-closed {
+.react-clean-select-dropdown-handle-closed {
   pointer-events: none;
 }
-.react-select-clean-dropdown-handle-closed.react-select-clean-dropdown-handle-rotate {
+.react-clean-select-dropdown-handle-closed.react-clean-select-dropdown-handle-rotate {
   margin: 0 0 0 5px;
   transform: rotate(180deg);
 }
-.react-select-clean-dropdown-handle-open {
+.react-clean-select-dropdown-handle-open {
   pointer-events: all;
 }
-.react-select-clean-dropdown-handle-open.react-select-clean-dropdown-handle-rotate {
+.react-clean-select-dropdown-handle-open.react-clean-select-dropdown-handle-rotate {
   transform: rotate(0deg);
   margin: 0px 0 -3px 5px;
 }
 
-.react-select-clean-input {
+.react-clean-select-input {
   line-height: inherit;
   border: none;
   margin-left: 5px;
@@ -122,31 +122,31 @@
   padding: 0;
   font-size: smaller;
 }
-.react-select-clean-input:focus {
+.react-clean-select-input:focus {
   outline: none;
 }
-.react-select-clean-input-readonly {
+.react-clean-select-input-readonly {
   cursor: pointer;
 }
-.react-select-clean-input-zero {
+.react-clean-select-input-zero {
   opacity: 0;
   width: 0;
   position: absolute;
 }
 
-.react-select-clean-item {
+.react-clean-select-item {
   padding: 5px 10px;
   cursor: pointer;
   border-bottom: 1px solid #fff;
 }
-.react-select-clean-item-active {
+.react-clean-select-item-active {
   border-bottom: 1px solid #fff;
 }
-.react-select-clean-item-disabled {
+.react-clean-select-item-disabled {
   background: #f2f2f2;
   color: #ccc;
 }
-.react-select-clean-item-disabled ins {
+.react-clean-select-item-disabled ins {
   text-decoration: none;
   border:1px solid #ccc;
   border-radius: 2px;
@@ -154,20 +154,20 @@
   font-size: x-small;
   text-transform: uppercase;
 }
-.react-select-clean-item:hover,
-.react-select-clean-item:focus {
+.react-clean-select-item:hover,
+.react-clean-select-item:focus {
   outline: none;
 }
-.react-select-clean-item-selected {
+.react-clean-select-item-selected {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-.react-select-clean-item-disabled.react-select-clean-item-selected {
+.react-clean-select-item-disabled.react-clean-select-item-selected {
   background: #f2f2f2;
   color: #ccc;
 }
 
-.react-select-clean-loading {
+.react-clean-select-loading {
   @keyframes dual-ring-spin {
     0% {
       transform: rotate(0deg);
@@ -182,7 +182,7 @@
   width: auto;
   height: auto;
 }
-.react-select-clean-loading:after {
+.react-clean-select-loading:after {
   content: ' ';
   display: block;
   width: 16px;
@@ -194,12 +194,12 @@
   margin: 0 0 0 -10px;
 }
 
-.react-select-clean-no-data {
+.react-clean-select-no-data {
   padding: 10px;
   text-align: center;
 }
 
-.react-select-clean-option {
+.react-clean-select-option {
   padding: 0 5px;
   border-radius: 2px;
   line-height: 21px;
@@ -208,10 +208,10 @@
   display: flex;
   flex-direction: row;
 }
-.react-select-clean-option-rtl {
+.react-clean-select-option-rtl {
   flex-direction: row-reverse;
 }
-.react-select-clean-option-remove {
+.react-clean-select-option-remove {
   cursor: pointer;
   width: 22px;
   height: 22px;
@@ -220,15 +220,15 @@
   margin: 0 -5px 0 0px;
   border-radius: 0 3px 3px 0;
 }
-.react-select-clean-option-remove:hover {
+.react-clean-select-option-remove:hover {
   color: tomato;
 }
-.react-select-clean-option:hover,
-.react-select-clean-option:hover > span {
+.react-clean-select-option:hover,
+.react-clean-select-option:hover > span {
   opacity: 0.9;
 }
 
-.react-select-clean-separator {
+.react-clean-select-separator {
   border-left: 1px solid #ccc;
   width: 1px;
   height: 25px;

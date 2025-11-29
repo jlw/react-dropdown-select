@@ -1,4 +1,4 @@
-declare module 'react-select-clean' {
+declare module 'react-clean-select' {
   import {
     ChangeEvent,
     CSSProperties,

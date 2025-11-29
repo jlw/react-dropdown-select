@@ -1,8 +1,8 @@
 {
-  "name": "react-select-clean",
+  "name": "react-clean-select",
   "version": "0.1.0",
   "description": "Customizable dropdown select for react with basic, easily-overrideable CSS",
-  "main": "dist/react-select-clean.js",
+  "main": "dist/react-clean-select.js",
   "module": "lib/index.js",
   "types": "types.d.ts",
   "sideEffects": false,
@@ -25,11 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jlw/react-dropdown-select"
+    "url": "https://github.com/jlw/react-clean-select"
   },
   "bundlesize": [
     {
-      "path": "./dist/react-select-clean.js",
+      "path": "./assets/index.css",
+      "maxSize": "10 kB"
+    },
+    {
+      "path": "./dist/react-clean-select.js",
       "maxSize": "20 kB"
     },
     {

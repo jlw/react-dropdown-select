@@ -1,10 +1,10 @@
-# react-select-clean
+# react-clean-select
 
 Customisable dropdown select for react (without @emotion or inline styles)
 
-[![](https://badgen.net/bundlephobia/minzip/react-dropdown-select)](https://bundlephobia.com/result?p=react-dropdown-select)
-[![](https://img.shields.io/npm/v/react-dropdown-select.svg)](https://www.npmjs.com/package/react-dropdown-select)
-[![Coverage Status](https://coveralls.io/repos/github/sanusart/react-dropdown-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/sanusart/react-dropdown-select?branch=master)
+[![](https://badgen.net/bundlephobia/minzip/react-dropdown-select)](https://bundlephobia.com/result?p=react-clean-select)
+[![](https://img.shields.io/npm/v/react-dropdown-select.svg)](https://www.npmjs.com/package/react-clean-select)
+[![Coverage Status](https://coveralls.io/repos/github/jlw/react-clean-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/jlw/react-clean-select?branch=master)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b24446a1398a4308ad5d2b825e61bf76)](https://app.codacy.com/gh/sanusart/react-dropdown-select/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 ### Features
@@ -17,21 +17,25 @@ Customisable dropdown select for react (without @emotion or inline styles)
 
 ### Installation
 
-> `npm install --save react-select-clean`
+> `npm install --save react-clean-select`
 
 ### Web site
 
-[Web site, docs and demo](https://sanusart.github.io/react-dropdown-select)
+[Web site with docs and demo](https://jlw.github.io/react-clean-select)
 
 ### Motivation
 
 I need a combobox component that A) can work on a site where the Content-Security-Policy does not allow inline styles and B) allows changing the available option list. Downshift met the needs for the Content-Secuity-Policy, but could not handle changing options after the component renders. All of the other packages I tried relied on inline styles and/or non-deterministic CSS class names that fought customization.
 
+#### Credits
+
+This is a fork of the [react-dropdown-select](https://github.com/sanusart/react-dropdown-select) package by Sasha Khamkov.
+
 ### Usage
 
 import:
 
-`import Select from "react-select-clean";`
+`import Select from "react-clean-select";`
 
 and use as:
 
@@ -78,14 +82,10 @@ const options = [
 
 #### How to help/contribute
 
-- fix issues, pull request are very welcome
+- fix issues and pull request are very welcome
 - write, improve docs
 - write tests (we use jest)
 - suggest features and improvements
-
-### Demo
-
-[![Edit react-dropdown-select](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/p54p8y1987?autoresize=1)
 
 # API
 
@@ -165,4 +165,4 @@ const options = [
 
 ### License
 
-[MIT](https://github.com/sanusart/react-dropdown-select/blob/master/LICENSE)
+[MIT](https://github.com/jlw/react-clean-select/blob/master/LICENSE)

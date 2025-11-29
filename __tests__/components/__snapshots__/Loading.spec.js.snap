@@ -2,6 +2,6 @@
 
 exports[`<Loading/> renders correctly 1`] = `
 <div
-  className="react-select-clean-loading"
+  className="react-clean-select-loading"
 />
 `;
